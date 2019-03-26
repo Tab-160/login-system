@@ -1,5 +1,5 @@
 /**
- * @link https://github.com/emn178/js-sha3
+ * @link https://github.com/Tab-160/login-system
  *
  * @version 1.0.0
  * @author Greenup, Rab [tab160.com@gmail.com]
@@ -27,7 +27,7 @@ function signIn2() {
 	  passwordTrue = passwords.indexOf(password);
   	if (usernameTrue == passwordTrue) {
 
-	  	window.location.href = 'download.html';
+	  	window.location.href = 'page.html';
   	} else {
 	  	window.alert('Incorrect Username or Password');
       window.alert(username);
